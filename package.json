@@ -1,0 +1,22 @@
+{
+  "name": "bbc-coding-exercise",
+  "version": "1.0.0",
+  "description": "This command line application takes in a string and reverses characters in each word without changing the order of the words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milkywaynian/bbc-coding-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milkywaynian/bbc-coding-exercise/issues"
+  },
+  "homepage": "https://github.com/milkywaynian/bbc-coding-exercise#readme",
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}
