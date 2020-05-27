@@ -16,8 +16,18 @@ if(arguments.length == 2) {
 //handle a reverse command and an error
 
 if(myArguments[0] == "reverse" && myArguments.length == 2) {
-    let response = stringReversal.reversedSentence(myArguments[1]);
+    let response = stringReversal.charLimit(myArguments[1]);
     console.log(response);
 } else if (myArguments[0] == "reverse" && (myArguments.length !== 2)) {
     console.log("error: you need to input an argument after the command. For example: \"cat and dog\". Note: You can't enter more than one argument");
 }
+
+
+// hanle truncate the sentence function 
+
+// if(myArguments[0] == "truncate" && myArguments.length == 2) {
+//     let response = stringReversal.reversedSentence(myArguments[1]);
+//     console.log(response);
+// } else if (myArguments[0] == "truncate" && (myArguments.length !== 2)) {
+//     console.log("error: you need to input an argument after the command. For example: \"cat and dog\". Note: You can't enter more than one argument");
+// }
